@@ -2,15 +2,12 @@
 import base64
 from io import BytesIO, StringIO, TextIOWrapper
 from openpyxl import Workbook
-from requests import options
 import streamlit as st
 import pandas as pd
 import numpy as np
 import datetime
 import openpyxl
-import xlrd
-import xlsxwriter as xw
-from xfilios.excel import ExcelHandler
+import xlsxwriter as xwr
 
 
 # This app is to work with excel files...
